@@ -1,0 +1,27 @@
+// Ajusta espaçamento da barra do Admin Tools
+
+body.vtex-topbar-born.qdsh-adminBarActive {
+  margin-top: 96px;
+}
+
+.qdsh-tb-container {
+  margin-top: -56px;
+}
+
+// Ajusta rolagens horizontais e verticais
+.content {
+  position: fixed;
+  top: 87px;
+  left: 1px;
+  right: 0;
+  bottom: 0;
+  margin: 8px 0;
+}
+
+.vtex-portal-main-td {
+  height: auto !important;
+}
+.tool-box,
+.vtex-portal-main{
+	width: 100% !important;
+}
