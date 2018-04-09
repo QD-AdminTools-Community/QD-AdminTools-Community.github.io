@@ -1,0 +1,44 @@
+
+// Oculta o botão de voltar no topo do admin VTEX
+.button-voltar {
+    #btnVoltar {
+        visibility: hidden;
+    }
+}
+
+// Estilo da Barra do QD Admin Tools
+.qdsh-tb-container {
+    position: absolute !important;
+    padding: 2px 90px 0 5px !important;
+    width: 150px;
+    background-size: 60px !important;
+    background-position-x: 160px !important;
+    left: -152px;
+    top: 43px;
+    z-index: 9999;
+    font-family: Tahoma;
+    transition-property: left;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(.455, .03, .515, .955);
+    box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.75);
+    border-radius: 0 4px 4px 0;
+    &:hover {
+        left: 0 !important;
+    }
+
+    // Estilo do botão de fechar
+    .qdsh-tb-close {
+        position: absolute;
+        top: 50%;
+        left: auto;
+        right: 4px;
+        cursor: pointer;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+// Retira a segunda borda da VTEX
+.tool-box {
+    border: none !important;
+}
