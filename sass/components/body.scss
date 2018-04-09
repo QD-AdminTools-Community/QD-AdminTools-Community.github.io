@@ -1,17 +1,54 @@
 // Ajusta espaçamento da barra do Admin Tools
 
+body.vtex-topbar-born {
+  margin-top: 40px !important;
+}
+
 body.vtex-topbar-born.qdsh-adminBarActive {
-  margin-top: 96px;
+  overflow-x: hidden;
+}
+
+.button-voltar {
+  #btnVoltar {
+    visibility: hidden;
+  }
 }
 
 .qdsh-tb-container {
-  margin-top: -56px;
+  position: absolute;
+  padding: 2px 90px 0 5px;
+  width: 150px;
+  background-size: 60px !important;
+  left: -152px;
+  top: 40px;
+  z-index: 9999;
+  font-family: Tahoma;
+  transition-property: left;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(.455, .03, .515, .955);
+  box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.75);
+  border-radius: 0 4px 4px 0;
+  
+  &:hover {
+    left: 0 !important;
+  }
+  
+  
+  .qdsh-tb-close {
+    position: absolute;
+    top: 30%;
+    left: auto;
+    right: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+  }
 }
 
 // Ajusta rolagens horizontais e verticais
 .content {
   position: fixed;
-  top: 87px;
+  top: 32px;
   left: 1px;
   right: 0;
   bottom: 0;
@@ -24,4 +61,22 @@ body.vtex-topbar-born.qdsh-adminBarActive {
 .tool-box,
 .vtex-portal-main{
 	width: 100% !important;
+}
+
+#portalTree {
+  width: auto;
+  
+  &:-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  &:-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  
+  &:-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
 }
