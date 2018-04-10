@@ -1,0 +1,147 @@
+@import "components/mixins/btn-admin.scss";
+@import "components/mixins/font-ico.scss";
+
+.vtex-placeholder-container {
+    position: relative;
+    zoom: 1;
+    box-sizing: border-box;
+
+    > * {
+        box-sizing: border-box;
+    }
+
+    &:after,
+    &:before {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+    .fieldSelected {
+        width: (100% / 6);
+        max-width: 225px;
+        position: relative;
+        min-height: 1px;
+        float: left;
+        margin: 0;
+        height: 180px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    a[onclick*="EditControl"] {
+        @include btn-admin();
+        right: 40px;
+
+        &:before {
+            @include font-ico( '\f040');
+        }
+
+        &:after {
+            content: "Editar";
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            padding: 2px;
+            position: absolute;
+            top: -26px;
+            left: 10px;
+            font-size: 14px;
+            z-index: 1;
+
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity .5s, visibility .5s;
+        }
+
+        &:active,
+        &:focus,
+        &:hover {
+            &:after {
+                opacity: 1;
+                visibility: visible;
+                color: #000000;
+            }
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    a[onclick*="RemoveControl"] {
+        @include btn-admin();
+        background-color: #F02C2C;
+        box-shadow: 0 3px 0 #D82727;
+
+        &:before {
+            @include font-ico( '\f00d');
+        }
+
+        &:after {
+            content: "Excluir";
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            padding: 2px;
+            position: absolute;
+            top: -26px;
+            left: 10px;
+            font-size: 14px;
+            z-index: 1;
+
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity .5s, visibility .5s;
+        }
+
+        &:active,
+        &:focus,
+        &:hover {
+            background-color: #D82727;
+
+            &:after {
+                opacity: 1;
+                visibility: visible;
+                color: #000000;
+            }
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    #name {
+        display: block;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin-top: 55px;
+        height: 50px;
+
+        &:active,
+        &:focus,
+        &:hover {
+            &:before {
+                opacity: 1;
+                visibility: visible;
+                color: #000000;
+            }
+        }
+
+        &:before {
+            content: "Renomear";
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            padding: 2px;
+            position: absolute;
+            top: 60px;
+            left: 25px;
+            font-size: 14px;
+            z-index: 1;
+
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity .5s, visibility .5s;
+        }
+    }
+}

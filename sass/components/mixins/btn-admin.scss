@@ -1,0 +1,24 @@
+@mixin btn-admin() {
+    transition: background .5s, color .5s;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #EC942C;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0;
+    margin-right: 5px;
+    font-size: 16px;
+    box-shadow: 0 3px 0 #D48527;
+
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: #D48527;
+        color: #FFFFFF;
+    }
+}

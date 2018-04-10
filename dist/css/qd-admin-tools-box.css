@@ -1,0 +1,149 @@
+@charset "UTF-8";
+.vtex-placeholder-container {
+  position: relative;
+  zoom: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .vtex-placeholder-container > * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .vtex-placeholder-container:after, .vtex-placeholder-container:before {
+    content: " ";
+    display: table;
+    clear: both; }
+  .vtex-placeholder-container .fieldSelected {
+    width: 16.66667%;
+    max-width: 225px;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    margin: 0;
+    height: 180px;
+    padding: 10px;
+    margin: 5px; }
+  .vtex-placeholder-container a[onclick*="EditControl"] {
+    -webkit-transition: background .5s, color .5s;
+    -o-transition: background .5s, color .5s;
+    transition: background .5s, color .5s;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #EC942C;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0;
+    margin-right: 5px;
+    font-size: 16px;
+    -webkit-box-shadow: 0 3px 0 #D48527;
+    box-shadow: 0 3px 0 #D48527;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    right: 40px; }
+    .vtex-placeholder-container a[onclick*="EditControl"]:active, .vtex-placeholder-container a[onclick*="EditControl"]:focus, .vtex-placeholder-container a[onclick*="EditControl"]:hover {
+      background-color: #D48527;
+      color: #FFFFFF; }
+    .vtex-placeholder-container a[onclick*="EditControl"]:before {
+      content: "";
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      line-height: 1.7; }
+    .vtex-placeholder-container a[onclick*="EditControl"]:after {
+      content: "Editar";
+      background-color: #FFFFFF;
+      border: 1px solid #000000;
+      padding: 2px;
+      position: absolute;
+      top: -26px;
+      left: 10px;
+      font-size: 14px;
+      z-index: 1;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: opacity .5s, visibility .5s;
+      -o-transition: opacity .5s, visibility .5s;
+      transition: opacity .5s, visibility .5s; }
+    .vtex-placeholder-container a[onclick*="EditControl"]:active:after, .vtex-placeholder-container a[onclick*="EditControl"]:focus:after, .vtex-placeholder-container a[onclick*="EditControl"]:hover:after {
+      opacity: 1;
+      visibility: visible;
+      color: #000000; }
+    .vtex-placeholder-container a[onclick*="EditControl"] img {
+      display: none; }
+  .vtex-placeholder-container a[onclick*="RemoveControl"] {
+    -webkit-transition: background .5s, color .5s;
+    -o-transition: background .5s, color .5s;
+    transition: background .5s, color .5s;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #EC942C;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0;
+    margin-right: 5px;
+    font-size: 16px;
+    -webkit-box-shadow: 0 3px 0 #D48527;
+    box-shadow: 0 3px 0 #D48527;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: #F02C2C;
+    -webkit-box-shadow: 0 3px 0 #D82727;
+    box-shadow: 0 3px 0 #D82727; }
+    .vtex-placeholder-container a[onclick*="RemoveControl"]:active, .vtex-placeholder-container a[onclick*="RemoveControl"]:focus, .vtex-placeholder-container a[onclick*="RemoveControl"]:hover {
+      background-color: #D48527;
+      color: #FFFFFF; }
+    .vtex-placeholder-container a[onclick*="RemoveControl"]:before {
+      content: "";
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      line-height: 1.7; }
+    .vtex-placeholder-container a[onclick*="RemoveControl"]:after {
+      content: "Excluir";
+      background-color: #FFFFFF;
+      border: 1px solid #000000;
+      padding: 2px;
+      position: absolute;
+      top: -26px;
+      left: 10px;
+      font-size: 14px;
+      z-index: 1;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: opacity .5s, visibility .5s;
+      -o-transition: opacity .5s, visibility .5s;
+      transition: opacity .5s, visibility .5s; }
+    .vtex-placeholder-container a[onclick*="RemoveControl"]:active, .vtex-placeholder-container a[onclick*="RemoveControl"]:focus, .vtex-placeholder-container a[onclick*="RemoveControl"]:hover {
+      background-color: #D82727; }
+      .vtex-placeholder-container a[onclick*="RemoveControl"]:active:after, .vtex-placeholder-container a[onclick*="RemoveControl"]:focus:after, .vtex-placeholder-container a[onclick*="RemoveControl"]:hover:after {
+        opacity: 1;
+        visibility: visible;
+        color: #000000; }
+    .vtex-placeholder-container a[onclick*="RemoveControl"] img {
+      display: none; }
+  .vtex-placeholder-container #name {
+    display: block;
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin-top: 55px;
+    height: 50px; }
+    .vtex-placeholder-container #name:active:before, .vtex-placeholder-container #name:focus:before, .vtex-placeholder-container #name:hover:before {
+      opacity: 1;
+      visibility: visible;
+      color: #000000; }
+    .vtex-placeholder-container #name:before {
+      content: "Renomear";
+      background-color: #FFFFFF;
+      border: 1px solid #000000;
+      padding: 2px;
+      position: absolute;
+      top: 60px;
+      left: 25px;
+      font-size: 14px;
+      z-index: 1;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: opacity .5s, visibility .5s;
+      -o-transition: opacity .5s, visibility .5s;
+      transition: opacity .5s, visibility .5s; }
