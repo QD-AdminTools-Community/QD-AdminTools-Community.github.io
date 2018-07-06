@@ -27,7 +27,7 @@ Para quem ainda não esta familiarizado com esses termos, pode consultar a ajuda
 ### Novo modo de exibição dos *PlaceHolders* de Layout com preview de imagens
 Agora você pode visualizar os objetos de um PlaceHolder em formato de *cards* ao invés de lista e o preview das imagens dos Banners
 
-![VTEX - Layout PlaceHolders objects cards and image preview](https://qd-admintools-community.github.io/_readme/vtex-layout-placeholder-preview-settings.png)
+![VTEX - Layout PlaceHolders objects cards and image preview](https://qd-admintools-community.github.io/_readme/vtex-layout-placeholder-preview-banner.png)
 
 ### Botão de "Editar Template" nas propriedades do Layout
 Chega de ficar procurando qual *Template* pertence ao *layout* que você esta trabalhando. Com esse botão você pode ir direto do *Layout* para a tela de edição do *Template*.
