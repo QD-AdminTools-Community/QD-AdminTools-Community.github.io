@@ -15,16 +15,19 @@ Para quem ainda não esta familiarizado com esses termos, pode consultar a ajuda
 ----------
 ## Quais funcionalidades / melhorias já estão disponíveis?
 
- - [Novo modo de exibição dos *PlaceHolders* de Layout](#novo-modo-de-exibição-dos-placeholders-de-layout)
+ - [Novo modo de exibição dos *PlaceHolders* de Layout com preview de imagens](#novo-modo-de-exibição-dos-placeholders-de-layout-com-preview-de-imagens)
  - [Botão de "Editar Template" nas propriedades do Layout](#botão-de-editar-template-nas-propriedades-do-layout)
  - [Seleção de Template com busca (*by Select2*)](#seleção-de-template-com-busca-by-select2)
  - [Edite a data da coleção apenas digitando!](#edite-a-data-da-coleção-apenas-digitando)
  - [Upload de arquivos via HTML5](#upload-de-arquivos-via-html5)
+ - [Preview das imagens nos Banners](#preview-das-imagens-nos-banners)
+ - [Edição de HTML em modo visual (WYSIWYG)](#edição-de-html-em-modo-visual-WYSIWYG)
+ - [Nova funcionalidade de clique no layout da página](#nova-funcionalidade-de-clique-no-layout-da-página)
 
-### Novo modo de exibição dos *PlaceHolders* de Layout
-Agora você pode visualizar os objetos de um PlaceHolder em formato de *cards* ao invés de lista.
+### Novo modo de exibição dos *PlaceHolders* de Layout com preview de imagens
+Agora você pode visualizar os objetos de um PlaceHolder em formato de *cards* ao invés de lista e o preview das imagens dos Banners
 
-![VTEX - Layout PlaceHolders objects cards](https://qd-admintools-community.github.io/_readme/vtex-layout-placeholder-settings.png)
+![VTEX - Layout PlaceHolders objects cards and image preview](https://qd-admintools-community.github.io/_readme/vtex-layout-placeholder-preview-settings.png)
 
 ### Botão de "Editar Template" nas propriedades do Layout
 Chega de ficar procurando qual *Template* pertence ao *layout* que você esta trabalhando. Com esse botão você pode ir direto do *Layout* para a tela de edição do *Template*.
@@ -45,3 +48,13 @@ O campo de data de uma coleção de produtos VTEX é bloqueado para edição man
 Não fique mais preso a necessidade de ter o FlashPlayer funcionando em seu navegador, esta liberado o upload de arquivos via HTML5 na VTEX!
 
 ![VTEX - HTML5 files upload](https://qd-admintools-community.github.io/_readme/vtex-cms-file-upload-html5.png)
+
+### Edição de HTML em modo visual (WYSIWYG)
+Não perca mais tempo editando a sua página em HTML. Com a nova funcionalidade, a edição é feita visualmente e o HTML estilizado é gerado automaticamente.
+
+![VTEX - New Text editor](https://qd-admintools-community.github.io/_readme/vtex-visual-editor-wysiwyg.png)
+
+### Nova funcionalidade de clique no layout da página
+A seleção de pastas e arquivos era feito apenas no menu lateral da página. Agora a função de clique também está disponível no layout da página.
+
+![Click function on page layout](https://qd-admintools-community.github.io/_readme/vtex-layout-button-click-layout.png)
